@@ -1,0 +1,16 @@
+{
+  "vocabulary": "meta-physical",
+
+  "keywords": {
+   "database": {
+      "domain": ["COLUMN"],
+      "range": ["string"],
+      "description": "Name of the database containing the table."
+    },
+	"physicalName": {
+      "scope": ["TABLE", "COLUMN"],
+      "range": ["string"],
+      "description": "Name of the column in the database that contains the table."
+    }
+  }
+}
