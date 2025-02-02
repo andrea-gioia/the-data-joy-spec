@@ -1,6 +1,9 @@
-The **Data Joy Specification (DJS)** is a TODO. DJS is released under [Apache 2.0 license](./LICENSE). Contributions from the data community are welcomed!
+The **Data Joy Specification (DJS)** defines how to describe a tabular data asset using a JSON or YAML document. DJS is released under [Apache 2.0 license](./LICENSE). Contributions from the data community are welcomed!
 
 This GitHub project is the starting point for DJS. Here you will find the information you need about the DJS, simple examples of what it looks like, and some general information regarding the project.
+
+**🚨 Disclaimer**
+This is not a real specification. It's just a dummy specification used in this [blog post](#) to showcase how to define an internal specification to describe a data entity of interest. 
 
 ## Status
 The current version of the DJS is [DJS v1.0.0](./versions/1.0.0.md).
