@@ -1,0 +1,31 @@
+djs: "1.0.0"
+name: "Employee"
+domain: "Human Resources"
+physicalName: "EMPL"
+columns:
+  - name: "EmployeeID"
+    datatype: "INT"
+    physicalName: "ID"
+    physicalType: "INTEGER"
+    primaryKey: "true"
+
+  - name: "FirstName"
+    datatype: "STRING"
+    physicalName: "FNAME"
+    physicalType: "VARCHAR(100)"
+
+  - name: "LastName"
+    datatype: "STRING"
+    physicalName: "LNAME"
+    physicalType: "VARCHAR(100)"
+
+  - name: "Salary"
+    datatype: "FLOAT"
+    physicalName: "SALARY"
+    physicalType: "NUMERIC(10, 3)"
+
+  - name: "DepartmentID"
+    datatype: "INT"
+    physicalName: "DEPID"
+    physicalType: "INTEGER"
+    partitionKey: "true"
