@@ -4,7 +4,7 @@ This GitHub project is the starting point for DJS. Here you will find the inform
 
 **🚨 Disclaimer 🚨**
 
-This is not a real specification. It's just a dummy specification used in this [blog post](#) to showcase how to define an internal specification to describe a data entity of interest. 
+This is not a real specification. It's just a dummy specification used in this [blog post](https://medium.com/@andrea_gioia/how-to-define-internal-data-specifications-to-govern-your-data-ecosystem-9d59b3473dfe) to showcase how to define an internal specification to describe a data entity of interest. 
 
 ## Status
 The current version of the DJS is [DJS v1.0.0](./versions/1.0.0.md).
