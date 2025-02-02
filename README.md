@@ -2,7 +2,8 @@ The **Data Joy Specification (DJS)** defines how to describe a tabular data asse
 
 This GitHub project is the starting point for DJS. Here you will find the information you need about the DJS, simple examples of what it looks like, and some general information regarding the project.
 
-**🚨 Disclaimer**
+**🚨 Disclaimer 🚨**
+
 This is not a real specification. It's just a dummy specification used in this [blog post](#) to showcase how to define an internal specification to describe a data entity of interest. 
 
 ## Status
