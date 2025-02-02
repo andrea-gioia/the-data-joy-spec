@@ -1,16 +1,35 @@
 {
   "vocabulary": "meta-physical",
-
   "keywords": {
-   "database": {
-      "domain": ["COLUMN"],
-      "range": ["string"],
-      "description": "Name of the database containing the table."
+    "physicalName": {
+      "domain": [
+        "TABLE",
+        "COLUMN"
+      ],
+      "range": [
+        "string"
+      ],
+      "description": "The name of the element in the source datastore."
     },
-	"physicalName": {
-      "scope": ["TABLE", "COLUMN"],
-      "range": ["string"],
-      "description": "Name of the column in the database that contains the table."
+    "physicalType": {
+      "scope": [
+        "TABLE",
+        "COLUMN"
+      ],
+      "range": [
+        "string"
+      ],
+      "description": "The type of the element in the source datastore. For table object MAY be equal to TABLE, VIEW, etc ... For column object MAY be equal to VARCHAR, TINNYINT, etc..."
+    },
+    "partitionKey": {
+      "domain": [
+        "COLUMN"
+      ],
+      "range": [
+        "boolean"
+      ],
+      "description": "When set to true, the partitionKey keyword indicates that the property is part of the dataset's partition key.",
+      "default": false
     }
   }
 }
