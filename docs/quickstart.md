@@ -1,4 +1,4 @@
-# Quickstart Guide: Data Joy Specification (DJS)
+# Quickstart
 
 ## Introduction
 The **Data Joy Specification (DJS)** provides a standardized way to describe **tabular data assets** using **JSON or YAML**.
